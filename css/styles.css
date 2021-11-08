@@ -31,7 +31,7 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.web-logo {
+.header-web-logo {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -164,4 +164,56 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+/*                  FOOTER            */
+.footer {
+  background-color: var(--header-text-color);
+}
+
+.footer-logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-web-logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.footer-adress {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--link-text-color);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-tel {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--link-text-color);
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
 }
