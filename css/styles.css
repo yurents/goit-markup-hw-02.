@@ -187,6 +187,7 @@ body {
   color: var(--main-title-color);
 }
 .footer-adress {
+  font-style: normal;
   font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
@@ -195,6 +196,7 @@ body {
 }
 
 .footer-mail {
+  font-style: normal;
   font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
@@ -207,6 +209,7 @@ body {
 }
 
 .footer-tel {
+  font-style: normal;
   font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
@@ -216,4 +219,35 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
+}
+
+/*                PORTFOLIO   - Filters                 */
+
+.btn-item {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+.btn-item:hover,
+.btn-item:focus {
+  color: var(--accent-color);
+}
+
+/*                   Portfolio Project */
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
