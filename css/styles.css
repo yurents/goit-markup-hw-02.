@@ -24,6 +24,7 @@ body {
 }
 /*                       HEADER                 */
 .header-logo {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -32,6 +33,7 @@ body {
   color: #2196f3;
 }
 .header-web-logo {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -171,6 +173,7 @@ body {
 }
 
 .footer-logo {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -179,6 +182,7 @@ body {
   color: #2196f3;
 }
 .footer-web-logo {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -201,7 +205,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--link-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover,
 .footer-mail:focus {
@@ -214,7 +218,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--link-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover,
 .footer-tel:focus {
@@ -224,6 +228,7 @@ body {
 /*                PORTFOLIO   - Filters                 */
 
 .btn-item {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
